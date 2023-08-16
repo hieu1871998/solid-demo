@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './theme/colors/colors.scss';
+
+body {
+  margin: 0;
+  font-family: 'Gordita Light',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  display: block;
+  border: 1px solid #FFFFFF;
+  padding: 16px;
+  box-shadow: 0 0 2px #FFFFFF, inset 0 0 2px #FFFFFF;
+  background-color: rgba(#000000, 0.2);
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $neon-cyan-500;
+}

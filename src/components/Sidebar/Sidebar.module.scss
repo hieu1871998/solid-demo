@@ -1,0 +1,26 @@
+@import '../../theme/colors/colors.scss';
+
+.sidebar {
+  background-color: rgba($neon-cyan-500, 0.2);
+  border: 1px solid $neon-cyan-500;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sidebarItem:global {
+  color: $neon-cyan-500;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+
+  &:hover {
+    background-color: $neon-cyan-500;
+    color: #333333;
+  }
+
+  >.active {
+    background-color: $neon-cyan-500;
+    color: #333333;
+  }
+}

@@ -1,0 +1,26 @@
+@import '../../theme/colors/colors.scss';
+
+.profile {
+  font-weight: 600;
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $neon-cyan-500;
+  }
+
+  ::-webkit-scrollbar-button {
+    background-color: transparent;
+    height: 8px;
+  }
+
+  li {
+    list-style: square;
+  }
+}

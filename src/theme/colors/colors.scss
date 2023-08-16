@@ -1,0 +1,113 @@
+/* SCSS variables */
+$neon-cyan-50: #e1fffe;
+$neon-cyan-100: #b3fffc;
+$neon-cyan-200: #80fffa;
+$neon-cyan-300: #4dfff7;
+$neon-cyan-400: #27fff6;
+$neon-cyan-500: #01fff4;
+$neon-cyan-600: #01fff3;
+$neon-cyan-700: #01fff1;
+$neon-cyan-800: #01ffef;
+$neon-cyan-900: #00ffec;
+
+$neon-green-50: #efffe1;
+$neon-green-100: #d8ffb3;
+$neon-green-200: #beff80;
+$neon-green-300: #a3ff4d;
+$neon-green-400: #90ff27;
+$neon-green-500: #7cff01;
+$neon-green-600: #74ff01;
+$neon-green-700: #69ff01;
+$neon-green-800: #5fff01;
+$neon-green-900: #4cff00;
+
+$neon-purple-50: #ffe2ef;
+$neon-purple-100: #ffb8d7;
+$neon-purple-200: #ff88bc;
+$neon-purple-300: #ff58a1;
+$neon-purple-400: #ff358c;
+$neon-purple-500: #ff1178;
+$neon-purple-600: #ff0f70;
+$neon-purple-700: #ff0c65;
+$neon-purple-800: #ff0a5b;
+$neon-purple-900: #ff0548;
+
+$neon-red-50 : #ffe6e6;
+$neon-red-100: #ffc1c1;
+$neon-red-200: #ff9898;
+$neon-red-300: #ff6f6f;
+$neon-red-400: #ff5050;
+$neon-red-500: #ff3131;
+$neon-red-600: #ff2c2c;
+$neon-red-700: #ff2525;
+$neon-red-800: #ff1f1f;
+$neon-red-900: #ff1313;
+
+$neon-yellow-50: #fffde1;
+$neon-yellow-100: #fffbb4;
+$neon-yellow-200: #fff982;
+$neon-yellow-300: #fff650;
+$neon-yellow-400: #fff42b;
+$neon-yellow-500: #fff205;
+$neon-yellow-600: #fff004;
+$neon-yellow-700: #ffee04;
+$neon-yellow-800: #ffec03;
+$neon-yellow-900: #ffe801;
+
+/* Export variables */
+:export {
+  neon-cyan-50: $neon-cyan-50;
+  neon-cyan-100: $neon-cyan-100;
+  neon-cyan-200: $neon-cyan-200;
+  neon-cyan-300: $neon-cyan-300;
+  neon-cyan-400: $neon-cyan-400;
+  neon-cyan-500: $neon-cyan-500;
+  neon-cyan-600: $neon-cyan-600;
+  neon-cyan-700: $neon-cyan-700;
+  neon-cyan-800: $neon-cyan-800;
+  neon-cyan-900: $neon-cyan-900;
+
+  neon-green-50: $neon-green-50;
+  neon-green-100: $neon-green-100;
+  neon-green-200: $neon-green-200;
+  neon-green-300: $neon-green-300;
+  neon-green-400: $neon-green-400;
+  neon-green-500: $neon-green-500;
+  neon-green-600: $neon-green-600;
+  neon-green-700: $neon-green-700;
+  neon-green-800: $neon-green-800;
+  neon-green-900: $neon-green-900;
+
+  neon-purple-50: $neon-purple-50;
+  neon-purple-100: $neon-purple-100;
+  neon-purple-200: $neon-purple-200;
+  neon-purple-300: $neon-purple-300;
+  neon-purple-400: $neon-purple-400;
+  neon-purple-500: $neon-purple-500;
+  neon-purple-600: $neon-purple-600;
+  neon-purple-700: $neon-purple-700;
+  neon-purple-800: $neon-purple-800;
+  neon-purple-900: $neon-purple-900;
+
+  neon-red-50: $neon-red-50;
+  neon-red-100: $neon-red-100;
+  neon-red-200: $neon-red-200;
+  neon-red-300: $neon-red-300;
+  neon-red-400: $neon-red-400;
+  neon-red-500: $neon-red-500;
+  neon-red-600: $neon-red-600;
+  neon-red-700: $neon-red-700;
+  neon-red-800: $neon-red-800;
+  neon-red-900: $neon-red-900;
+
+  neon-yellow-50: $neon-yellow-50;
+  neon-yellow-100: $neon-yellow-100;
+  neon-yellow-200: $neon-yellow-200;
+  neon-yellow-300: $neon-yellow-300;
+  neon-yellow-400: $neon-yellow-400;
+  neon-yellow-500: $neon-yellow-500;
+  neon-yellow-600: $neon-yellow-600;
+  neon-yellow-700: $neon-yellow-700;
+  neon-yellow-800: $neon-yellow-800;
+  neon-yellow-900: $neon-yellow-900;
+}

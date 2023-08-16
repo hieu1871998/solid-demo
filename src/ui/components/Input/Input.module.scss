@@ -1,0 +1,229 @@
+@import '../../../theme/colors/colors.scss';
+
+.input {
+  padding: 8px 16px;
+  font-family: 'Gordita';
+  font-weight: 400;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  > span {
+    z-index: 10;
+    position: relative;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  &:focus {
+    color: #333;
+  }
+
+  &[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  &::-webkit-outer-spin-button,&::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    &::after {
+      opacity: 0.75;
+      transition: 0s;
+    }
+  }
+
+  &:disabled {
+    background-color: rgba(255,255,255,0.2);
+    color: #ccc;
+    border-color: #ccc;
+    box-shadow: 0 0 4px rgba(255,255,255,0.2);
+
+    &:focus {
+      background-color: rgba(255,255,255,0.2);
+      color: #ccc;
+      border-color: #ccc;
+      box-shadow: 0 0 4px rgba(255,255,255,0.2);
+      cursor: not-allowed;
+    }
+
+    &:active {
+      &::after {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.inputCyan {
+  background-color: rgba($neon-cyan-500, 0.2);
+  border: 1px solid $neon-cyan-500;
+  color: $neon-cyan-500;
+  box-shadow: 0 0 2px 0 $neon-cyan-500, inset 0 0 2px 0 $neon-cyan-500;
+
+  &::after {
+    box-shadow: 0 0 0px 6px $neon-cyan-500;
+  }
+
+  &:focus {
+    background-color: rgba($neon-cyan-500, 1);
+    box-shadow: 0 0 4px 0 $neon-cyan-500;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 $neon-cyan-500;
+    }
+  }
+}
+
+.inputGreen {
+  background-color: rgba($neon-green-500, 0.2);
+  border: 1px solid $neon-green-500;
+  color: $neon-green-500;
+  box-shadow: 0 0 2px 0 $neon-green-500, inset 0 0 2px 0 $neon-green-500;
+
+  &::after {
+    box-shadow: 0 0 0px 6px $neon-green-500;
+  }
+
+  &:focus {
+    background-color: rgba($neon-green-500, 1);
+    box-shadow: 0 0 4px 0 $neon-green-500;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 $neon-green-500;
+    }
+  }
+}
+
+.inputPurple {
+  background-color: rgba($neon-purple-500, 0.2);
+  border: 1px solid $neon-purple-500;
+  color: $neon-purple-500;
+  box-shadow: 0 0 2px 0 $neon-purple-500, inset 0 0 2px 0 $neon-purple-500;
+
+  &::after {
+    box-shadow: 0 0 0px 6px $neon-purple-500;
+  }
+
+  &:focus {
+    background-color: rgba($neon-purple-500, 1);
+    box-shadow: 0 0 4px 0 $neon-purple-500;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 $neon-purple-500;
+    }
+  }
+}
+
+.inputRed {
+  background-color: rgba($neon-red-500, 0.2);
+  border: 1px solid $neon-red-500;
+  color: $neon-red-500;
+  box-shadow: 0 0 2px 0 $neon-red-500, inset 0 0 2px 0 $neon-red-500;
+
+  &::after {
+    box-shadow: 0 0 0px 6px $neon-red-500;
+  }
+
+  &:focus {
+    background-color: rgba($neon-red-500, 1);
+    box-shadow: 0 0 4px 0 $neon-red-500;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 $neon-red-500;
+    }
+  }
+}
+
+.inputYellow {
+  background-color: rgba($neon-yellow-500, 0.2);
+  border: 1px solid $neon-yellow-500;
+  color: $neon-yellow-500;
+  box-shadow: 0 0 2px 0 $neon-yellow-500, inset 0 0 2px 0 $neon-yellow-500;
+
+  &::after {
+    box-shadow: 0 0 0px 6px $neon-yellow-500;
+  }
+
+  &:focus {
+    background-color: rgba($neon-yellow-500, 1);
+    box-shadow: 0 0 4px 0 $neon-yellow-500;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 $neon-yellow-500;
+    }
+  }
+}
+
+.inputWhite {
+  background-color: rgba(#FFFFFF, 0.2);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  box-shadow: 0 0 2px 0 #FFFFFF, inset 0 0 2px 0 #FFFFFF;
+
+  &::after {
+    box-shadow: 0 0 0px 6px #FFFFFF;
+  }
+
+  &:focus {
+    background-color: rgba(#FFFFFF, 1);
+    box-shadow: 0 0 4px 0 #FFFFFF;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 #FFFFFF;
+    }
+  }
+}
+
+.inputDark {
+  background-color: rgba(#333333, 0.2);
+  border: 1px solid #333333;
+  color: #FFFFFF;
+  box-shadow: 0 0 2px 0 #FFFFFF, inset 0 0 2px 0 #FFFFFF;
+
+  &::after {
+    box-shadow: 0 0 0px 6px #FFFFFF;
+  }
+
+  &:focus {
+    background-color: rgba(#FFFFFF, 1);
+    box-shadow: 0 0 4px 0 #FFFFFF;
+  }
+
+  &:active {
+    &::after {
+      box-shadow: 0 0 0 0 #FFFFFF;
+    }
+  }
+}
