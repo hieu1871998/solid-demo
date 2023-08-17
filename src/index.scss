@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @import './theme/colors/colors.scss';
+@import './theme/fonts/fonts.scss';
 
 body {
   margin: 0;
-  font-family: 'Gordita Light',
+  font-family: 'Gordita',
     sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;

@@ -3,6 +3,7 @@ import { render } from 'solid-js/web'
 import { Router } from '@solidjs/router'
 
 import './index.scss'
+import './theme/colors/colors.scss'
 import './theme/fonts/fonts.scss'
 import App from './App'
 

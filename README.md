@@ -1,3 +1,5 @@
+![banner](https://assets.solidjs.com/banner?project=demo)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
