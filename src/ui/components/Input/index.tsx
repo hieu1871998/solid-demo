@@ -8,6 +8,8 @@ interface InputProps {
   color?: 'cyan' | 'green' | 'purple' | 'red' | 'yellow' | 'white' | 'dark'
   value?: string | number | string[]
   disabled?: boolean
+  min?: number
+  max?: number
 }
 
 export const Input: Component<InputProps> = (props: InputProps) => {
@@ -42,6 +44,8 @@ export const Input: Component<InputProps> = (props: InputProps) => {
       onInput={inputHandler}
       value={props.value}
       disabled={props.disabled}
+      min={props.min}
+      max={props.max}
     />
   )
 }
