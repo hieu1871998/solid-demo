@@ -1,0 +1,32 @@
+Create database by using .sql file
+1.
+a) Using SessionBean to create an EJB application with the below requirement. In the SessionBean, please use JP to do the database operation
+  + Add new Compunter to database
+  + Update existed computer in the database
+  + Delete computer by computer id
+  + Show all computer from database to the table
+b) Create web application to use the above SessionBean to do the Insertion, Updateing, Deletion, and show information. Your are free to design Web form.
+  - Show all computer in Table
+  - Select any computer to view detail in edit page, then save these information
+  - Delete any selected computer in the Table
+  - Add new computer
+
+2. Using JMS to develop an application that allow the Producer sends MapMessage to the Consumber. This MapMessage contains some information as below:
+
+ - UserName: name of any sender or producer
+ - Time: The current time when send message
+ - Description: some information about the UserName
+
+Note: You must use MapMessage to meet the requirement. Any Queue or Topic is allowed
+
+SQL: 
+create database EJB_EXAM
+go
+use EJB_EXAM
+go
+create table tblComputer(ComId varchar(15) not null primary key,
+ComName nvarchar(100) not null, Producer nvarchar(200), YearMaking int, 
+Price float, InOutStock bit)
+
+insert into tblComputer values ('C01','Acer core i3 parvilion','Acer',2014,8500000,1)
+insert into tblComputer values ('C02','HP core i7','HP',2015,12000000,0)
